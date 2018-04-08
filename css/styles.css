@@ -1,0 +1,437 @@
+a {
+color: black;
+text-decoration: none;
+}
+
+
+a:hover {
+transform: scaleY(1.5);
+color: #ff6138;
+}
+
+#credit {
+position: relative;
+bottom: 36px;
+font-family: "Bodoni URW";
+font-size: 10pt;
+font-style: italic;
+}
+h1 {
+font-family: futura;
+font-size: 10pt;
+letter-spacing: .1rem;
+
+}
+
+#blurb {
+width: 500px;
+margin: auto;
+margin-top: 100px;
+font-family: "Bodoni URW";
+font-size: 10pt;
+line-height: 13pt;
+font-style: italic;
+}
+
+#tagline {
+	margin-bottom: 50px;
+}
+
+#status {
+margin-top: 150px;
+margin-bottom: 150px;
+}
+
+#slideshow {
+margin: 0 auto;
+margin-left: 25px;
+margin-top: 25px;
+border: none;
+}
+
+h2 {
+font-family: "Bodoni URW";
+font-size: 10pt;
+line-height: 36pt;
+font-style: italic;
+text-align: center;
+color: #ff6138;
+}
+
+button{
+display: none;
+}
+form {
+position: relative;
+font-family: "Bodoni URW";
+font-size: 10pt;
+text-align: center;
+margin-bottom: 30px;
+font-style: oblique;
+
+}
+
+input {
+border: solid;
+width: 350px;
+height: 35px;
+border-color: black;
+font-family: "Bodoni URW";
+font-size: 10pt;
+text-align: center;
+}
+
+br {
+
+}
+.num {
+font-family: futura;
+font-weight: bold;
+}
+#push {
+
+}
+
+#push2 {
+
+margin-top: 150px;
+}
+
+
+#illo2 {
+position: auto;
+margin-top:50px;
+float: left;
+}
+
+#mission_statement {
+font-family: "Bodoni URW";
+font-style: roman;
+font-size: 12pt;
+line-height: 15pt;
+max-width: 375px;
+float: right;
+}
+
+#group1 {
+position: auto;
+width: 900px;
+margin: 0 auto;
+margin-top: 120px;
+
+
+}
+
+#group2  {
+position: auto;
+width: 900px;
+margin: 0 auto;
+margin-top: 120px;
+
+
+}
+
+#noaction1 {
+width: 800px;
+column-count: 2;
+column-gap: 200px;
+height: 823px;
+font-family: "Bodoni URW";
+font-size: 12pt;
+line-height: 15pt;
+list-style: disc outside none;
+margin-left: 0;
+padding-left: 1em;
+text-indent: -1em;
+}
+#group3 {
+position: auto;
+width: 900px;
+margin: 0 auto;
+margin-top: 120px;
+margin-bottom: 250px;
+
+}
+
+.letter {
+display: inline-block;
+margin: 20px;
+position: relative;
+height: 100px;
+width: 100px;
+}
+
+
+
+#deardonald {
+text-align: center;
+margin-top: 800px;
+
+}
+#sidebar {
+position: fixed;
+top: 0;
+left: 0;
+height: 99%;
+width: 60px;
+border-style: solid;
+border-width: 5px;
+}
+
+#pencil {
+position: relative;
+margin-bottom: 150px;
+
+}
+
+#menu {
+font-family: Futura;
+font-weight: bold;
+font-size: 8pt;
+-webkit-translate: left(450px);
+-webkit-transform: rotate(270deg);
+width: 500px;
+position: fixed;
+left: -214px;
+top: 49%;
+margin-right: 50px;
+letter-spacing: .1rem;
+}
+
+#logo {
+position: fixed;
+margin-top: 75px;
+-webkit-transform: rotate(270deg);
+font-family: futura display BQ;
+left: -33px;
+font-size: 16pt;
+}
+
+#insta {
+position: fixed;
+bottom: 18px;
+left: 24px;
+display:block;
+}
+
+#insta:hover {
+position: fixed;
+bottom: 18px;
+left: 24px;
+-webkit-transform: scale(1.1);
+transition-timing-function: ease-in-out;
+transition: .5s;
+}
+
+
+#tag {
+position: absolute;
+top: 12px;
+left: 85px;
+}
+
+#title {
+font-family: futura;
+font-weight: bold;
+letter-spacing: .1rem;
+font-size: 8pt;
+}
+
+#description {
+font-family: "Bodoni URW";
+font-size: 10pt;
+font-style: oblique;
+line-height: 13pt;
+}
+
+
+#illo1 {
+position: auto;
+margin-top: 100px;
+margin-bottom: 75px;
+
+}
+
+
+#categories {
+position: auto;
+
+
+}
+
+#instructions {
+position: relative;
+top: 25px;
+font-family: "Bodoni URW";
+font-style: oblique;
+font-size: 10pt;
+
+}
+
+
+#thelist {
+position: relative;
+text-align: justify;
+max-width: 800px;
+font-family: "Bodoni URW";
+font-size: 12pt;
+line-height: 15pt;
+margin-top: 250px;
+margin-bottom: 250px;
+}
+
+#illo3 {
+position: absolute;
+float: right;
+margin-left: 468px;
+}
+
+#action {
+width: 400px;
+font-family: "Bodoni URW";
+font-size: 12pt;
+line-height: 15pt;
+list-style: disc outside none;
+margin-left: 0; 
+padding-left: 1em;
+text-indent: -1em;
+}
+
+#timeline {
+height: 2335px;
+width: 82px;
+float: right;
+position: absolute;
+background: url(../images/timeline1.png);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+top: 780px;
+left: 85%;
+
+}
+
+/* Tablet Version */
+@media (max-height:650px) {
+
+#menu {
+font-family: Futura;
+font-weight: bold;
+font-size: 8pt;
+-webkit-translate: left(450px);
+-webkit-transform: rotate(270deg);
+width: 500px;
+position: fixed;
+left: -214px;
+top: 54%;
+margin-right: 50px;
+letter-spacing: .1rem;
+}
+
+#insta {
+position: fixed;
+bottom: 18px;
+left: 24px;
+display:none;
+}
+
+#tag {
+position: absolute;
+top: 12px;
+left: 85px;
+}
+}
+
+@media (max-height:570px) {
+
+#menu {
+font-family: Futura;
+font-weight: bold;
+font-size: 6pt;
+-webkit-translate: left(450px);
+-webkit-transform: rotate(270deg);
+width: 500px;
+position: fixed;
+left: -214px;
+top: 42%;
+margin-right: 50px;
+letter-spacing: .1rem;
+}
+
+#logo {
+position: fixed;
+margin-top: 50px;
+-webkit-transform: rotate(270deg);
+font-family: futura display BQ;
+left: -15px;
+font-size: 12pt;
+}
+
+#insta {
+position: fixed;
+bottom: 18px;
+left: 24px;
+display:none;
+}
+}
+
+
+
+
+/* phone Version */
+@media (max-width:400px) {
+
+#sidebar {
+position: fixed;
+top: 0;
+left: 0;
+width: 97%;
+height: 60px;
+border-style: solid;
+border-width: 5px;
+}
+
+#menu {
+font-family: Futura;
+font-weight: bold;
+font-size: 9pt;
+width: 500px;
+position: absolute;
+left: -237px;
+top: 300px;
+letter-spacing: .1rem;
+-webkit-transform: rotate(270deg);
+max-width: 500;
+text-align: center;
+}
+
+
+#logo {
+position: fixed;
+margin-top: 75px;
+-webkit-transform: rotate(0deg);
+font-family: futura display BQ;
+top: -55px;
+left: 20%;
+font-size: 22pt;
+}
+
+#insta {
+display: none;
+left: 24px;
+}
+
+#insta:hover {
+position: fixed;
+bottom: 18px;
+left: 24px;
+-webkit-transform: scale(1.1);
+transition-timing-function: ease-in-out;
+transition: .5s;
+}
+
+#tag {
+position: absolute;
+top: 90;
+left: 40px;
+}
+}
