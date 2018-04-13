@@ -15,6 +15,12 @@ transform: scaleY(1.5);
 color: #ff6138;
 }
 
+b {
+    font-family: futura;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
 #credit {
 position: relative;
 bottom: 36px;
